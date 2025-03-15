@@ -9,14 +9,14 @@ int Application::run() {
 
     // Display the assignment header
     cout << "\033[38;5;214m----------------------------------------------------------------------------------------\033[0m\n"; // Orange color
-    cout << "                          \033[1m EEET2482/COSC2082 GROUP ASSIGNMENT\033[0m                  \n\n";
-    cout << "Instructor: \033[1;32mDr. Huo Chong Ling\033[0m                  \n";
-    cout << "Group: \033[1;38;5;131mGroup 14 - HD Destroyers\033[0m             \n"; // Bold text, Orange color
-    cout << " Nguyen Minh Khai (s3995223)                      \n";
-    cout << " Nguyen Vu Trong Nhan (s3975010)                      \n";
-    cout << " Duong Hoang Anh Khoa (s3864111)                     \n";
-    cout << " Nhat Pham (s3915104)                    \n";
-    cout << " Ho Gia Bao (s3958122)               \n";
+    cout << "                          \033[1m AUCTION SYSTEM \033[0m                  \n\n";
+    cout << "Developer: \033[1;32mNguyen Minh Khai (s3995223)\033[0m                  \n\n";
+    cout << "\033[1;38;5;131mDescription:\033[0m\n"; // Bold text, Orange color
+    cout << "This Auction System is a C++ application designed to facilitate online auctions, allowing\n";
+    cout << "users to manage items, place bids, and handle profiles with ease. Featuring a robust\n";
+    cout << "bidding system, user authentication, and data persistence via CSV files, it provides a\n";
+    cout << "seamless experience for auction enthusiasts.\n";
+    cout << "\033[38;5;214m----------------------------------------------------------------------------------------\033[0m\n"; // Orange color
 
     // ANSI escape codes for colors
     string green = "\033[32m"; // Green for the $
