@@ -30,7 +30,7 @@ Follow the steps below to set up and run the Auction System on your local machin
 1. **Clone the Repository**  
    Download the project files by cloning the GitHub repository:  
    ```bash
-   git clone https://github.com/anhkhoa31/auction-system.git
+   git clone https://github.com/khainguyen04/Aunction-System.git
    cd auction-system
 
 2. **Compile the Project**  
